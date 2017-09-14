@@ -1,0 +1,30 @@
+{   
+    "name": "jjpmann/ee-criticalcss",
+    "type": "ee3-addon",
+    "description": "Critical CSS helpers",
+    "keywords": ["eecms", "ee3", "critical css"],
+    "homepage": "http://github.com/jjpmann/ee-criticalcss",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jerry Price",
+            "email": "jjpmann@gmail.com",
+            "homepage": "http://github.com/jjpmann"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "helpers.php"
+        ]
+    },
+    "require": {
+        "php": ">=5.3.10",
+        "composer/installers": ">=1.1.0",
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+    },
+    "extra": {
+        "installer-name": "criticalcss"
+    }
+}
