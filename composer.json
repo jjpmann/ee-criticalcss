@@ -19,10 +19,10 @@
     },
     "require": {
         "php": ">=5.3.10",
-        "composer/installers": ">=1.1.0",
+        "composer/installers": ">=1.1.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~4.0",
+        "phpunit/phpunit": "~4.0"
     },
     "extra": {
         "installer-name": "criticalcss"
